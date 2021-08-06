@@ -1,0 +1,35 @@
+{
+    "name": "weishaypt/laravel-enot-io",
+    "description": "enot.io payments for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weishaypt",
+            "email": "ya@sanek.dev"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": "6.*",
+        "guzzlehttp/guzzle": "~6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weishaypt\\EnotIo\\Facades\\": "src/Facades",
+            "Weishaypt\\EnotIo\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Weishaypt\\EnotIo\\EnotIoServiceProvider"
+            ],
+            "aliases": {
+                "EnotIo": "Weishaypt\\EnotIo\\Facades\\EnotIo"
+            }
+        }
+    }
+}
