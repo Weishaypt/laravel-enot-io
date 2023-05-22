@@ -4,8 +4,9 @@ Accept payments via EnotIo ([enot.io](https://enot.io/)) using this Laravel fram
 
 - receive payments, adding just the two callbacks
 
-#### Laravel >= 9.*, PHP >= 8.1
-
+#### Laravel >= 10.*, PHP >= 8.1
+> To use the package for Laravel 9.* use the [3.x](https://github.com/Weishaypt/laravel-enot-io/tree/4.x) branch
+> 
 > To use the package for Laravel 8.* use the [3.x](https://github.com/Weishaypt/laravel-enot-io/tree/3.x) branch
 > 
 > To use the package for Laravel 7.* use the [2.x](https://github.com/Weishaypt/laravel-enot-io/tree/2.x) branch
